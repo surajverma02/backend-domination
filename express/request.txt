@@ -1,0 +1,8 @@
+Important properties in req -> request parameter,
+.params
+.body
+.cookies
+.query
+.headers
+.url
+.method
