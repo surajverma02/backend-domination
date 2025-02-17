@@ -1,7 +1,7 @@
 const express = require("express");
 const app = express();
 
-const mongooseConnection = require("./config/mongoose");
+const dbConnection = require("./config/mongoose");
 
 app.get("/", (req, res) => {
   res.send("hey");
